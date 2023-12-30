@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libLower.a CMakeFiles/Lower.dir/Lower.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libLower.a

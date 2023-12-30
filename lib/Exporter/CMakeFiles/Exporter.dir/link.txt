@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libExporter.a CMakeFiles/Exporter.dir/ProtobufWriter.cpp.o CMakeFiles/Exporter.dir/ONNXModelWriter.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libExporter.a

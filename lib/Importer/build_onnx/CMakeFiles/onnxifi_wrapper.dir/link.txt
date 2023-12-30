@@ -1,0 +1,1 @@
+/usr/lib/llvm-10/bin/clang -fPIC -g -fno-omit-frame-pointer -O0 -O0 -shared  -o libonnxifi.so CMakeFiles/onnxifi_wrapper.dir/onnx/onnxifi_wrapper.c.o  libonnxifi_loader.a -ldl 

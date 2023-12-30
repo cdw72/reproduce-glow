@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libTensorPool.a CMakeFiles/TensorPool.dir/TensorPool.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libTensorPool.a

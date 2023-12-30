@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libGraph.a CMakeFiles/Graph.dir/__/__/glow/AutoGenNodes.cpp.o CMakeFiles/Graph.dir/Hook.cpp.o CMakeFiles/Graph.dir/Node.cpp.o CMakeFiles/Graph.dir/Nodes.cpp.o CMakeFiles/Graph.dir/NodeValue.cpp.o CMakeFiles/Graph.dir/Log.cpp.o CMakeFiles/Graph.dir/PlaceholderBindings.cpp.o CMakeFiles/Graph.dir/TensorLayout.cpp.o CMakeFiles/Graph.dir/Graph.cpp.o CMakeFiles/Graph.dir/Grad.cpp.o CMakeFiles/Graph.dir/VerifierHelper.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libGraph.a

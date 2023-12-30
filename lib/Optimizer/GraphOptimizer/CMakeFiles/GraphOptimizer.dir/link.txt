@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libGraphOptimizer.a CMakeFiles/GraphOptimizer.dir/ConstantFolding.cpp.o CMakeFiles/GraphOptimizer.dir/FunctionPassManager.cpp.o CMakeFiles/GraphOptimizer.dir/GraphOptimizer.cpp.o CMakeFiles/GraphOptimizer.dir/Lower.cpp.o CMakeFiles/GraphOptimizer.dir/Quantization.cpp.o CMakeFiles/GraphOptimizer.dir/TrainingPreparation.cpp.o CMakeFiles/GraphOptimizer.dir/NodeSplitting.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libGraphOptimizer.a

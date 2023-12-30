@@ -1,17 +1,27 @@
-# Iterate all subdirectories and check whether particular backend is enabled.
+# Traverse all subdirectories and check if a specific backend is enabled.
 FILE(GLOB subdirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*)
+
 foreach(object ${subdirs})
+  # Check if the current object is a directory
   if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${object})
+    # Construct the backendEnabled variable name based on the current object
     set(backendEnabled GLOW_WITH_${object})
+   
+    # Convert backendEnabled variable to uppercase
     string(TOUPPER ${backendEnabled} backendEnabled)
-    # Add sub directory for a backend if this backend is enabled
-    # or there is no defined variable for that backend.
-    # For example, Interpreter backend will be added automatically.
-    # While there is GLOW_WITH_CPU variable to control whether
-    # CPU backend is enabled or not.
-    if(NOT DEFINED ${backendEnabled} OR ${backendEnabled})
-      message(STATUS "Adding ${object} backend.")
-      add_subdirectory(${object})
+   
+    # Exclude lib/Backends/CMakeFiles from being added
+    # (Note: This condition checks if the object is "Backends" and if the "CMakeFiles" directory exists)
+    if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${object}/CMakeLists.txt)
+      # If the backendEnabled variable is not defined or its value is true, add the subdirectory
+      # For example, the Interpreter backend will be added automatically.
+      # GLOW_WITH_CPU variable exists to control whether the CPU backend is enabled.
+      if(NOT DEFINED ${backendEnabled} OR ${backendEnabled})
+        # Print a status message indicating that the backend is being added
+        message(STATUS "Adding ${object} backend.")
+        # Add the subdirectory to the build system
+        add_subdirectory(${object})
+      endif()
     endif()
   endif()
 endforeach()

@@ -248,8 +248,8 @@ void testMNISTLoadAndTraining() {
 
   Error errPtr = Error::empty();
   // Load and compile LeNet MNIST model.
-  glow::Caffe2ModelLoader loader("lenet_mnist/predict_net.pb",
-                                 "lenet_mnist/init_net.pb", {inputName},
+  glow::Caffe2ModelLoader loader("/home/cdw2131/newdisk/release/lenet_mnist/predict_net.pb",
+                                 "/home/cdw2131/newdisk/release/lenet_mnist/init_net.pb", {inputName},
                                  {inputType}, *F, &errPtr);
 
   LOG(INFO) << "Loaded graph topology.";
@@ -272,8 +272,8 @@ void testMNISTLoadAndTraining() {
   ExecutionEngine EET_(executionBackend);
   auto &trainMod = EET_.getModule();
   auto *TF = trainMod.createFunction("lenet_mnist_train");
-  glow::Caffe2ModelLoader trainingLoader("lenet_mnist/predict_net.pb",
-                                         "lenet_mnist/init_net.pb", {inputName},
+  glow::Caffe2ModelLoader trainingLoader("/home/cdw2131/newdisk/release/lenet_mnist/predict_net.pb",
+                                         "/home/cdw2131/newdisk/release/lenet_mnist/init_net.pb", {inputName},
                                          {inputType}, *TF, &errPtr);
 
   if (errPtr) {
@@ -308,7 +308,7 @@ void testMNISTLoadAndTraining() {
 int main(int argc, char **argv) {
   llvm::cl::ParseCommandLineOptions(argc, argv, " The MNIST test\n\n");
   testMNIST();
-  testMNISTLoadAndTraining();
+  //testMNISTLoadAndTraining();
 
   return 0;
 }

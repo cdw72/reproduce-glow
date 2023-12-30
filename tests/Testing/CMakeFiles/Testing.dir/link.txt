@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libTesting.a CMakeFiles/Testing.dir/StrCheck.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libTesting.a

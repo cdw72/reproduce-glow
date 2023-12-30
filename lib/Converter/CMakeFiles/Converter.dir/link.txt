@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libConverter.a CMakeFiles/Converter.dir/Float16Converter.cpp.o CMakeFiles/Converter.dir/FusedRowwiseConverter.cpp.o CMakeFiles/Converter.dir/FunctionConverter.cpp.o CMakeFiles/Converter.dir/TypeAToTypeBFunctionConverter.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libConverter.a

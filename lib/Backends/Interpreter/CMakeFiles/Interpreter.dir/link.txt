@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libInterpreter.a CMakeFiles/Interpreter.dir/Interpreter.cpp.o CMakeFiles/Interpreter.dir/InterpreterFunction.cpp.o CMakeFiles/Interpreter.dir/InterpreterNodes.cpp.o CMakeFiles/Interpreter.dir/InterpreterDeviceManager.cpp.o CMakeFiles/Interpreter.dir/InterpreterFactory.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libInterpreter.a

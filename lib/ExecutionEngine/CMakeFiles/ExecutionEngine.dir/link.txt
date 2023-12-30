@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libExecutionEngine.a CMakeFiles/ExecutionEngine.dir/ExecutionEngine.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libExecutionEngine.a

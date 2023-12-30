@@ -93,12 +93,12 @@ DATASETS = dict(
         untar,
         "ptb",
     ),
-    fr2en=Dataset(
-        "fr2en.tar.gz",
-        "http://fb-glow-assets.s3.amazonaws.com/models/fr2en.tar.gz",
-        untar,
-        "fr2en",
-    ),
+    #fr2en=Dataset(
+    #  "fr2en.tar.gz",
+    #  "http://fb-glow-assets.s3.amazonaws.com/models/fr2en.tar.gz",
+    #   untar,
+    #   "fr2en",
+    #),
 )
 
 
@@ -114,7 +114,7 @@ CAFFE2_MODELS = [
     "vgg19",
     "zfnet512",
     "bvlc_alexnet",
-    "en2gr",
+    #"en2gr",
     "quant_resnet50",
 ]
 ONNX_MODELS = [

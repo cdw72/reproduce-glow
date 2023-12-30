@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libPassManager.a CMakeFiles/PassManager.dir/PassConfig.cpp.o CMakeFiles/PassManager.dir/PassManager.cpp.o CMakeFiles/PassManager.dir/PassPipeline.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libPassManager.a

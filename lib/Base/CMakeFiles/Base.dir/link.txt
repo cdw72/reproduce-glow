@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libBase.a CMakeFiles/Base.dir/Tensor.cpp.o CMakeFiles/Base.dir/TensorSerialization.cpp.o CMakeFiles/Base.dir/Type.cpp.o CMakeFiles/Base.dir/IO.cpp.o CMakeFiles/Base.dir/TaggedList.cpp.o CMakeFiles/Base.dir/NumpyReader.cpp.o CMakeFiles/Base.dir/Image.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libBase.a

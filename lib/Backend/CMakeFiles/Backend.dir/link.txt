@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libBackend.a CMakeFiles/Backend.dir/Backend.cpp.o CMakeFiles/Backend.dir/BackendUtils.cpp.o CMakeFiles/Backend.dir/CompiledFunction.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libBackend.a

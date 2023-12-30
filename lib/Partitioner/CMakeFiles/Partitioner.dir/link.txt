@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libPartitioner.a CMakeFiles/Partitioner.dir/PartitionerBase.cpp.o CMakeFiles/Partitioner.dir/PartitionerUtils.cpp.o CMakeFiles/Partitioner.dir/PartitionerOptimizer.cpp.o CMakeFiles/Partitioner.dir/PartitionerValidation.cpp.o CMakeFiles/Partitioner.dir/Partitioner.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libPartitioner.a

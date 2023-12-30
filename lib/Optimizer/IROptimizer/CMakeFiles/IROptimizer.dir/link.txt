@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libIROptimizer.a CMakeFiles/IROptimizer.dir/IRFunctionPassManager.cpp.o CMakeFiles/IROptimizer.dir/IROptimizer.cpp.o CMakeFiles/IROptimizer.dir/IRInstrumentation.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libIROptimizer.a

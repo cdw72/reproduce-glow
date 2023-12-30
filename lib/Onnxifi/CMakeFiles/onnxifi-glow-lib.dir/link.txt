@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libonnxifi-glow-lib.a "CMakeFiles/onnxifi-glow-lib.dir/Base.cpp.o" "CMakeFiles/onnxifi-glow-lib.dir/GlowOnnxifiManager.cpp.o" "CMakeFiles/onnxifi-glow-lib.dir/HostManagerOnnxifi.cpp.o" "CMakeFiles/onnxifi-glow-lib.dir/onnxifiGlow.cpp.o" "CMakeFiles/onnxifi-glow-lib.dir/InlineOnnxifi.cpp.o"
+/usr/lib/llvm-10/bin/llvm-ranlib libonnxifi-glow-lib.a

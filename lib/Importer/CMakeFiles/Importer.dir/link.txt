@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libImporter.a CMakeFiles/Importer.dir/ProtobufLoader.cpp.o CMakeFiles/Importer.dir/Caffe2ModelLoader.cpp.o CMakeFiles/Importer.dir/ONNXModelLoader.cpp.o CMakeFiles/Importer.dir/ONNXIFIModelLoader.cpp.o CMakeFiles/Importer.dir/TFLiteModelLoader.cpp.o CMakeFiles/Importer.dir/caffe2.pb.cc.o
+/usr/lib/llvm-10/bin/llvm-ranlib libImporter.a

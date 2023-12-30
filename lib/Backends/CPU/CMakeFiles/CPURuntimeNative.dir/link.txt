@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libCPURuntimeNative.a CMakeFiles/CPURuntimeNative.dir/__/__/LLVMIRCodeGen/libjit/libjit.cpp.o CMakeFiles/CPURuntimeNative.dir/__/__/LLVMIRCodeGen/libjit/libjit_conv.cpp.o CMakeFiles/CPURuntimeNative.dir/__/__/LLVMIRCodeGen/libjit/libjit_matmul.cpp.o CMakeFiles/CPURuntimeNative.dir/libjit_cpu/libjit_cpu.cpp.o CMakeFiles/CPURuntimeNative.dir/libjit_cpu/libjit_cpu_conv.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libCPURuntimeNative.a

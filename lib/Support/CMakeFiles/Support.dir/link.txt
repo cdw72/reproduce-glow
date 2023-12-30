@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libSupport.a CMakeFiles/Support.dir/Debug.cpp.o CMakeFiles/Support.dir/Error.cpp.o CMakeFiles/Support.dir/Random.cpp.o CMakeFiles/Support.dir/Support.cpp.o CMakeFiles/Support.dir/ThreadPool.cpp.o CMakeFiles/Support.dir/ZipUtils.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libSupport.a

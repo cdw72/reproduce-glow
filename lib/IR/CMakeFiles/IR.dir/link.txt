@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libIR.a CMakeFiles/IR.dir/__/__/glow/AutoGenInstr.cpp.o CMakeFiles/IR.dir/__/__/glow/AutoGenIRBuilder.cpp.o CMakeFiles/IR.dir/IR.cpp.o CMakeFiles/IR.dir/IRGen.cpp.o CMakeFiles/IR.dir/IRUtils.cpp.o CMakeFiles/IR.dir/IRBuilder.cpp.o CMakeFiles/IR.dir/Instrs.cpp.o CMakeFiles/IR.dir/GraphScheduler.cpp.o CMakeFiles/IR.dir/ChildMemSizeBasedScheduler.cpp.o CMakeFiles/IR.dir/TopologicalSortBasedScheduler.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libIR.a

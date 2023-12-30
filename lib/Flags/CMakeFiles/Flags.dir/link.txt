@@ -1,0 +1,2 @@
+/usr/lib/llvm-10/bin/llvm-ar qc libFlags.a CMakeFiles/Flags.dir/Flags.cpp.o
+/usr/lib/llvm-10/bin/llvm-ranlib libFlags.a
