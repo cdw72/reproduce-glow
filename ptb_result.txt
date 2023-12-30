@@ -1,0 +1,472 @@
+cdw2131@cdw2131-VirtualBox:~/newdisk/release$ ./bin/ptb
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I1213 11:36:52.152298  3904 ptb.cpp:167] Loading the ptb database.
+I1213 11:36:52.228883  3904 ptb.cpp:184] Loaded 10000 words.
+I1213 11:36:52.235455  3904 ptb.cpp:196] Building
+I1213 11:36:52.248612  3904 Partitioner.cpp:493] The model is too small for applying partition.
+Model size : 285360
+Backend Name : Interpreter
+Device memory: 2000000000
+I1213 11:36:52.254761  3904 Partitioner.cpp:90] The number of partitions is : 2
+I1213 11:36:52.257079  3904 PartitionerUtils.cpp:552] 	 Partition 0:
+		 Name :	main
+		 BackendKind :	Interpreter
+		 context count :	1
+		 total Memory :	485360
+			 input size:	285360
+			 input count :	9
+			 input only from peers count :	6
+			 output size:	200000
+			 constant size:	0
+				 non-deferred constant size:	0
+				 deferred constant size:	0
+I1213 11:36:52.262177  3904 PartitionerUtils.cpp:582] 		 LogicalDeviceIDs :	0
+I1213 11:36:52.262274  3904 PartitionerUtils.cpp:552] 	 Partition 1:
+		 Name :	main_grad
+		 BackendKind :	Interpreter
+		 context count :	1
+		 total Memory :	569120
+			 input size:	285360
+			 input count :	9
+			 input only from peers count :	0
+			 output size:	283760
+			 constant size:	0
+				 non-deferred constant size:	0
+				 deferred constant size:	0
+I1213 11:36:52.263127  3904 PartitionerUtils.cpp:582] 		 LogicalDeviceIDs :	0
+I1213 11:36:52.271615  3904 ptb.cpp:246] Training for 99 rounds
+Training - iteration #1
+perplexity: 438.4734
+perplexity: 210.3248
+perplexity: 165.0827
+perplexity: 143.3100
+perplexity: 135.2429
+perplexity: 125.5388
+perplexity: 120.0183
+perplexity: 113.4283
+perplexity: 108.6599
+perplexity: 106.9366
+perplexity: 105.4579
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.6291 (100.0%)   0.0239 (100.0%)   0.6530 (100.0%)   0.7905 (100.0%)  Training
+   0.6291 (100.0%)   0.0239 (100.0%)   0.6530 (100.0%)   0.7905 (100.0%)  Total
+
+Training - iteration #2
+perplexity: 55.9196
+perplexity: 85.3843
+perplexity: 86.7945
+perplexity: 86.1392
+perplexity: 88.2232
+perplexity: 86.5458
+perplexity: 86.1291
+perplexity: 83.8189
+perplexity: 82.3174
+perplexity: 82.5503
+perplexity: 82.3274
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5955 (100.0%)   0.0276 (100.0%)   0.6230 (100.0%)   0.7080 (100.0%)  Training
+   0.5955 (100.0%)   0.0276 (100.0%)   0.6230 (100.0%)   0.7080 (100.0%)  Total
+
+Training - iteration #3
+perplexity: 49.5037
+perplexity: 76.0768
+perplexity: 78.1418
+perplexity: 77.7918
+perplexity: 79.8789
+perplexity: 78.7689
+perplexity: 78.6105
+perplexity: 76.6663
+perplexity: 75.4561
+perplexity: 75.7699
+perplexity: 75.6265
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.6013 (100.0%)   0.0661 (100.0%)   0.6673 (100.0%)   0.7520 (100.0%)  Training
+   0.6013 (100.0%)   0.0661 (100.0%)   0.6673 (100.0%)   0.7520 (100.0%)  Total
+
+Training - iteration #4
+perplexity: 45.0966
+perplexity: 69.6942
+perplexity: 72.2753
+perplexity: 72.1605
+perplexity: 74.1638
+perplexity: 73.3685
+perplexity: 73.3585
+perplexity: 71.6543
+perplexity: 70.5783
+perplexity: 70.9135
+perplexity: 70.8094
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5761 (100.0%)   0.0669 (100.0%)   0.6429 (100.0%)   0.7134 (100.0%)  Training
+   0.5761 (100.0%)   0.0669 (100.0%)   0.6429 (100.0%)   0.7134 (100.0%)  Total
+
+Training - iteration #5
+perplexity: 41.8961
+perplexity: 65.2399
+perplexity: 68.0578
+perplexity: 68.1415
+perplexity: 69.9996
+perplexity: 69.3281
+perplexity: 69.4099
+perplexity: 67.8023
+perplexity: 66.8014
+perplexity: 67.1166
+perplexity: 67.0439
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5864 (100.0%)   0.0309 (100.0%)   0.6173 (100.0%)   0.6873 (100.0%)  Training
+   0.5864 (100.0%)   0.0309 (100.0%)   0.6173 (100.0%)   0.6873 (100.0%)  Total
+
+Training - iteration #6
+perplexity: 39.7655
+perplexity: 61.6941
+perplexity: 64.6799
+perplexity: 64.8997
+perplexity: 66.6059
+perplexity: 65.9979
+perplexity: 66.1271
+perplexity: 64.5340
+perplexity: 63.6147
+perplexity: 63.9061
+perplexity: 63.8547
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5772 (100.0%)   0.0425 (100.0%)   0.6197 (100.0%)   0.6853 (100.0%)  Training
+   0.5772 (100.0%)   0.0425 (100.0%)   0.6197 (100.0%)   0.6853 (100.0%)  Total
+
+Training - iteration #7
+perplexity: 38.5214
+perplexity: 58.6152
+perplexity: 61.7212
+perplexity: 62.0019
+perplexity: 63.6056
+perplexity: 63.0653
+perplexity: 63.2225
+perplexity: 61.6247
+perplexity: 60.7783
+perplexity: 61.0549
+perplexity: 61.0173
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5844 (100.0%)   0.0422 (100.0%)   0.6266 (100.0%)   0.6897 (100.0%)  Training
+   0.5844 (100.0%)   0.0422 (100.0%)   0.6266 (100.0%)   0.6897 (100.0%)  Total
+
+Training - iteration #8
+perplexity: 37.6961
+perplexity: 55.9026
+perplexity: 59.0324
+perplexity: 59.3385
+perplexity: 60.8597
+perplexity: 60.3866
+perplexity: 60.5657
+perplexity: 59.0024
+perplexity: 58.1974
+perplexity: 58.4616
+perplexity: 58.4330
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5768 (100.0%)   0.0504 (100.0%)   0.6271 (100.0%)   0.6854 (100.0%)  Training
+   0.5768 (100.0%)   0.0504 (100.0%)   0.6271 (100.0%)   0.6854 (100.0%)  Total
+
+Training - iteration #9
+perplexity: 36.9046
+perplexity: 53.5069
+perplexity: 56.5723
+perplexity: 56.8605
+perplexity: 58.2967
+perplexity: 57.8825
+perplexity: 58.0737
+perplexity: 56.5612
+perplexity: 55.8066
+perplexity: 56.0611
+perplexity: 56.0390
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5656 (100.0%)   0.0671 (100.0%)   0.6327 (100.0%)   0.6803 (100.0%)  Training
+   0.5656 (100.0%)   0.0671 (100.0%)   0.6327 (100.0%)   0.6803 (100.0%)  Total
+
+Training - iteration #10
+perplexity: 35.7823
+perplexity: 51.2713
+perplexity: 54.2707
+perplexity: 54.5212
+perplexity: 55.8735
+perplexity: 55.5128
+perplexity: 55.7121
+perplexity: 54.2573
+perplexity: 53.5635
+perplexity: 53.8117
+perplexity: 53.7943
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.6185 (100.0%)   0.0041 (100.0%)   0.6226 (100.0%)   0.6700 (100.0%)  Training
+   0.6185 (100.0%)   0.0041 (100.0%)   0.6226 (100.0%)   0.6700 (100.0%)  Total
+
+Training - iteration #11
+perplexity: 34.5437
+perplexity: 49.1714
+perplexity: 52.1066
+perplexity: 52.3247
+perplexity: 53.5980
+perplexity: 53.2790
+perplexity: 53.4859
+perplexity: 52.0904
+perplexity: 51.4598
+perplexity: 51.7064
+perplexity: 51.6893
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5981 (100.0%)   0.0228 (100.0%)   0.6208 (100.0%)   0.6950 (100.0%)  Training
+   0.5981 (100.0%)   0.0228 (100.0%)   0.6208 (100.0%)   0.6950 (100.0%)  Total
+
+Training - iteration #12
+perplexity: 33.3641
+perplexity: 47.2364
+perplexity: 50.0616
+perplexity: 50.2703
+perplexity: 51.4636
+perplexity: 51.1809
+perplexity: 51.3883
+perplexity: 50.0549
+perplexity: 49.4912
+perplexity: 49.7403
+perplexity: 49.7214
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5815 (100.0%)   0.0550 (100.0%)   0.6365 (100.0%)   0.6829 (100.0%)  Training
+   0.5815 (100.0%)   0.0550 (100.0%)   0.6365 (100.0%)   0.6829 (100.0%)  Total
+
+Training - iteration #13
+perplexity: 32.2618
+perplexity: 45.4643
+perplexity: 48.1230
+perplexity: 48.3460
+perplexity: 49.4505
+perplexity: 49.2157
+perplexity: 49.4144
+perplexity: 48.1444
+perplexity: 47.6524
+perplexity: 47.9071
+perplexity: 47.8826
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5907 (100.0%)   0.0307 (100.0%)   0.6214 (100.0%)   0.6675 (100.0%)  Training
+   0.5907 (100.0%)   0.0307 (100.0%)   0.6214 (100.0%)   0.6675 (100.0%)  Total
+
+Training - iteration #14
+perplexity: 31.2762
+perplexity: 43.8602
+perplexity: 46.3326
+perplexity: 46.5687
+perplexity: 47.5722
+perplexity: 47.3931
+perplexity: 47.5875
+perplexity: 46.3753
+perplexity: 45.9464
+perplexity: 46.2047
+perplexity: 46.1715
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5684 (100.0%)   0.0621 (100.0%)   0.6305 (100.0%)   0.6776 (100.0%)  Training
+   0.5684 (100.0%)   0.0621 (100.0%)   0.6305 (100.0%)   0.6776 (100.0%)  Total
+
+Training - iteration #15
+perplexity: 30.4132
+perplexity: 42.4084
+perplexity: 44.7362
+perplexity: 44.9667
+perplexity: 45.8580
+perplexity: 45.7314
+perplexity: 45.9199
+perplexity: 44.7555
+perplexity: 44.3785
+perplexity: 44.6375
+perplexity: 44.5930
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5785 (100.0%)   0.0472 (100.0%)   0.6258 (100.0%)   0.6723 (100.0%)  Training
+   0.5785 (100.0%)   0.0472 (100.0%)   0.6258 (100.0%)   0.6723 (100.0%)  Total
+
+Training - iteration #16
+perplexity: 29.6499
+perplexity: 41.0607
+perplexity: 43.3047
+perplexity: 43.5197
+perplexity: 44.2992
+perplexity: 44.2190
+perplexity: 44.4103
+perplexity: 43.2772
+perplexity: 42.9480
+perplexity: 43.2043
+perplexity: 43.1474
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5711 (100.0%)   0.0509 (100.0%)   0.6219 (100.0%)   0.6656 (100.0%)  Training
+   0.5711 (100.0%)   0.0509 (100.0%)   0.6219 (100.0%)   0.6656 (100.0%)  Total
+
+Training - iteration #17
+perplexity: 28.9648
+perplexity: 39.7818
+perplexity: 41.9763
+perplexity: 42.1828
+perplexity: 42.8611
+perplexity: 42.8180
+perplexity: 43.0209
+perplexity: 41.9082
+perplexity: 41.6297
+perplexity: 41.8816
+perplexity: 41.8149
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.6097 (100.0%)   0.0170 (100.0%)   0.6267 (100.0%)   0.6812 (100.0%)  Training
+   0.6097 (100.0%)   0.0170 (100.0%)   0.6267 (100.0%)   0.6812 (100.0%)  Total
+
+Training - iteration #18
+perplexity: 28.3449
+perplexity: 38.5721
+perplexity: 40.7202
+perplexity: 40.9310
+perplexity: 41.5224
+perplexity: 41.5035
+perplexity: 41.7036
+perplexity: 40.6212
+perplexity: 40.3834
+perplexity: 40.6306
+perplexity: 40.5605
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.6031 (100.0%)   0.0349 (100.0%)   0.6381 (100.0%)   0.6896 (100.0%)  Training
+   0.6031 (100.0%)   0.0349 (100.0%)   0.6381 (100.0%)   0.6896 (100.0%)  Total
+
+Training - iteration #19
+perplexity: 27.7909
+perplexity: 37.4483
+perplexity: 39.5320
+perplexity: 39.7547
+perplexity: 40.2750
+perplexity: 40.2704
+perplexity: 40.4620
+perplexity: 39.4191
+perplexity: 39.2089
+perplexity: 39.4519
+perplexity: 39.3825
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.5894 (100.0%)   0.0426 (100.0%)   0.6319 (100.0%)   0.6880 (100.0%)  Training
+   0.5894 (100.0%)   0.0426 (100.0%)   0.6319 (100.0%)   0.6880 (100.0%)  Total
+
+Training - iteration #20
+perplexity: 27.2796
+perplexity: 36.3963
+perplexity: 38.4050
+perplexity: 38.6454
+perplexity: 39.1112
+perplexity: 39.1121
+perplexity: 39.2963
+perplexity: 38.2992
+perplexity: 38.1108
+perplexity: 38.3494
+perplexity: 38.2837
+
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+   0.6332 (100.0%)   0.0231 (100.0%)   0.6563 (100.0%)   0.7165 (100.0%)  Training
+   0.6332 (100.0%)   0.0231 (100.0%)   0.6563 (100.0%)   0.7165 (100.0%)  Total
+
+Perplexity scores in copy-pastable format:
+/// Iteration 1: 105.4579
+/// Iteration 2: 82.3274
+/// Iteration 4: 70.8094
+/// Iteration 6: 63.8547
+/// Iteration 8: 58.4330
+/// Iteration 10: 53.7943
+/// Iteration 12: 49.7214
+/// Iteration 14: 46.1715
+/// Iteration 16: 43.1474
+/// Iteration 18: 40.5605
+/// Iteration 20: 38.2837
+Note, that small 1E-4 error is considered acceptable and may be coming from fast math optimizations.
+I1213 11:37:06.175042  3904 HostManager.cpp:238] Destroying host manager...
+

@@ -1,0 +1,412 @@
+cdw2131@cdw2131-VirtualBox:~/newdisk/release$ ./bin/mnist
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I1206 08:37:09.010241  4346 mnist.cpp:46] Loading the mnist database.
+I1206 08:37:09.745054  4346 mnist.cpp:81] Loaded 50000 images.
+I1206 08:37:09.751674  4346 Partitioner.cpp:493] The model is too small for applying partition.
+Model size : 58280
+Backend Name : Interpreter
+Device memory: 2000000000
+I1206 08:37:09.752823  4346 Partitioner.cpp:90] The number of partitions is : 2
+I1206 08:37:09.752836  4346 PartitionerUtils.cpp:552] 	 Partition 0:
+		 Name :	mnist
+		 BackendKind :	Interpreter
+		 context count :	1
+		 total Memory :	58600
+			 input size:	58280
+			 input count :	8
+			 input only from peers count :	6
+			 output size:	320
+			 constant size:	0
+				 non-deferred constant size:	0
+				 deferred constant size:	0
+I1206 08:37:09.752859  4346 PartitionerUtils.cpp:582] 		 LogicalDeviceIDs :	0
+I1206 08:37:09.752871  4346 PartitionerUtils.cpp:552] 	 Partition 1:
+		 Name :	mnist_grad
+		 BackendKind :	Interpreter
+		 context count :	1
+		 total Memory :	157984
+			 input size:	91408
+			 input count :	14
+			 input only from peers count :	0
+			 output size:	66576
+			 constant size:	0
+				 non-deferred constant size:	0
+				 deferred constant size:	0
+I1206 08:37:09.752887  4346 PartitionerUtils.cpp:582] 		 LogicalDeviceIDs :	0
+I1206 08:37:09.754896  4346 mnist.cpp:129] Training.
+I1206 08:37:09.754915  4346 mnist.cpp:137] Training - epoch #0
+I1206 08:37:10.677122  4346 mnist.cpp:137] Training - epoch #1
+I1206 08:37:11.586000  4346 mnist.cpp:137] Training - epoch #2
+I1206 08:37:12.440961  4346 mnist.cpp:137] Training - epoch #3
+I1206 08:37:13.297322  4346 mnist.cpp:137] Training - epoch #4
+I1206 08:37:14.183617  4346 mnist.cpp:137] Training - epoch #5
+I1206 08:37:15.090720  4346 mnist.cpp:137] Training - epoch #6
+I1206 08:37:15.987941  4346 mnist.cpp:137] Training - epoch #7
+I1206 08:37:16.877696  4346 mnist.cpp:137] Training - epoch #8
+I1206 08:37:17.755604  4346 mnist.cpp:137] Training - epoch #9
+I1206 08:37:18.706920  4346 mnist.cpp:137] Training - epoch #10
+I1206 08:37:19.615365  4346 mnist.cpp:137] Training - epoch #11
+I1206 08:37:20.524063  4346 mnist.cpp:137] Training - epoch #12
+I1206 08:37:21.422263  4346 mnist.cpp:137] Training - epoch #13
+I1206 08:37:22.337546  4346 mnist.cpp:137] Training - epoch #14
+I1206 08:37:23.236761  4346 mnist.cpp:137] Training - epoch #15
+I1206 08:37:24.201421  4346 mnist.cpp:137] Training - epoch #16
+I1206 08:37:25.109256  4346 mnist.cpp:137] Training - epoch #17
+I1206 08:37:25.998631  4346 mnist.cpp:137] Training - epoch #18
+I1206 08:37:26.891958  4346 mnist.cpp:137] Training - epoch #19
+I1206 08:37:27.833690  4346 mnist.cpp:137] Training - epoch #20
+I1206 08:37:28.779736  4346 mnist.cpp:137] Training - epoch #21
+I1206 08:37:29.711504  4346 mnist.cpp:137] Training - epoch #22
+I1206 08:37:30.614010  4346 mnist.cpp:137] Training - epoch #23
+I1206 08:37:31.530575  4346 mnist.cpp:137] Training - epoch #24
+I1206 08:37:32.411087  4346 mnist.cpp:137] Training - epoch #25
+I1206 08:37:33.293779  4346 mnist.cpp:137] Training - epoch #26
+I1206 08:37:34.174907  4346 mnist.cpp:137] Training - epoch #27
+I1206 08:37:35.053651  4346 mnist.cpp:137] Training - epoch #28
+I1206 08:37:35.958923  4346 mnist.cpp:137] Training - epoch #29
+I1206 08:37:36.875903  4346 mnist.cpp:137] Training - epoch #30
+I1206 08:37:37.795221  4346 mnist.cpp:137] Training - epoch #31
+I1206 08:37:38.724953  4346 mnist.cpp:137] Training - epoch #32
+I1206 08:37:39.615605  4346 mnist.cpp:137] Training - epoch #33
+I1206 08:37:40.513675  4346 mnist.cpp:137] Training - epoch #34
+I1206 08:37:41.376914  4346 mnist.cpp:137] Training - epoch #35
+I1206 08:37:42.254015  4346 mnist.cpp:137] Training - epoch #36
+I1206 08:37:43.118350  4346 mnist.cpp:137] Training - epoch #37
+I1206 08:37:43.996461  4346 mnist.cpp:137] Training - epoch #38
+I1206 08:37:44.858682  4346 mnist.cpp:137] Training - epoch #39
+I1206 08:37:45.717641  4346 mnist.cpp:137] Training - epoch #40
+I1206 08:37:46.577195  4346 mnist.cpp:137] Training - epoch #41
+I1206 08:37:47.436730  4346 mnist.cpp:137] Training - epoch #42
+I1206 08:37:48.293848  4346 mnist.cpp:137] Training - epoch #43
+I1206 08:37:49.152592  4346 mnist.cpp:137] Training - epoch #44
+I1206 08:37:50.060398  4346 mnist.cpp:137] Training - epoch #45
+I1206 08:37:50.964445  4346 mnist.cpp:137] Training - epoch #46
+I1206 08:37:51.931772  4346 mnist.cpp:137] Training - epoch #47
+I1206 08:37:52.838006  4346 mnist.cpp:137] Training - epoch #48
+I1206 08:37:53.753232  4346 mnist.cpp:137] Training - epoch #49
+I1206 08:37:54.651227  4346 mnist.cpp:137] Training - epoch #50
+I1206 08:37:55.591079  4346 mnist.cpp:137] Training - epoch #51
+I1206 08:37:56.456379  4346 mnist.cpp:137] Training - epoch #52
+I1206 08:37:57.327606  4346 mnist.cpp:137] Training - epoch #53
+I1206 08:37:58.212677  4346 mnist.cpp:137] Training - epoch #54
+I1206 08:37:59.075014  4346 mnist.cpp:137] Training - epoch #55
+I1206 08:37:59.984876  4346 mnist.cpp:137] Training - epoch #56
+I1206 08:38:00.910225  4346 mnist.cpp:137] Training - epoch #57
+I1206 08:38:01.799985  4346 mnist.cpp:137] Training - epoch #58
+I1206 08:38:02.727968  4346 mnist.cpp:137] Training - epoch #59
+===-------------------------------------------------------------------------===
+                         Miscellaneous Ungrouped Timers
+===-------------------------------------------------------------------------===
+
+   ---User Time---   --System Time--   --User+System--   ---Wall Time---  --- Name ---
+  51.7840 (100.0%)   1.6790 (100.0%)  53.4629 (100.0%)  53.8726 (100.0%)  Training
+  51.7840 (100.0%)   1.6790 (100.0%)  53.4629 (100.0%)  53.8726 (100.0%)  Total
+
+I1206 08:38:03.634666  4346 mnist.cpp:156] Validating.
+I1206 08:38:03.634912  4346 Partitioner.cpp:493] The model is too small for applying partition.
+Model size : 58280
+Backend Name : Interpreter
+Device memory: 2000000000
+I1206 08:38:03.635411  4346 Partitioner.cpp:90] The number of partitions is : 1
+I1206 08:38:03.635473  4346 PartitionerUtils.cpp:552] 	 Partition 0:
+		 Name :	mnist
+		 BackendKind :	Interpreter
+		 context count :	1
+		 total Memory :	58600
+			 input size:	25088
+			 input count :	1
+			 input only from peers count :	0
+			 output size:	320
+			 constant size:	33192
+				 non-deferred constant size:	33192
+				 deferred constant size:	0
+I1206 08:38:03.635977  4346 PartitionerUtils.cpp:582] 		 LogicalDeviceIDs :	0
+MNIST Input                            
+                            
+                            
+                            
+                            
+            .o:.            
+            :o.oo,          
+            :,  oo          
+            :o  :o          
+            .oo  . ,,       
+             :o,.:oo:.      
+             ,ooooo.        
+              ooo,          
+             ooo:           
+            :ooo:           
+           ,o,,o:           
+           o:  o:           
+           o:  o:           
+          ,o:  o:           
+          ,o: .o:           
+           o: ,o:           
+              ,o:           
+              :o:           
+            .,oo.           
+            .oo.            
+                            
+                            
+                            
+ Expected: 8 Guessed: 8
+shape: ( 10 )
+elemkind: float
+max: 0.44609  min: 0.00033  avg: 0.10000
+[0.00033, 0.36576, 0.04268, 0.02017, 0.00517, 0.00084, 0.00062, 0.04487, 0.44609, 0.07346, ]
+
+-------------
+MNIST Input                            
+             .o             
+             ,o             
+            ,oo.            
+            oo:             
+           ooo              
+           oo:              
+         ,oo:               
+         ooo.               
+        :oo                 
+       .oo:                 
+       :oo.                 
+      .ooo         .:o:     
+      :oo,        .ooooo    
+      ooo.       .oooooo    
+      ooo.      .oo:.oo:    
+      :oo,      ooo .oo.    
+      .ooo,    .oo:,oo,     
+       ,ooo::::oooooo:      
+        ,ooooooooooo:       
+          .ooooooo:.        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+ Expected: 6 Guessed: 6
+shape: ( 10 )
+elemkind: float
+max: 0.96358  min: 0.00000  avg: 0.10000
+[0.00903, 0.00000, 0.00281, 0.00000, 0.02449, 0.00001, 0.96358, 0.00000, 0.00006, 0.00002, ]
+
+-------------
+MNIST Input                            
+                            
+                            
+                            
+          ...:.:..          
+         ,oooooooo:         
+        ,oooooooooo:        
+        :ooo...:ooo:        
+         :,,    .oo:        
+                ooo:        
+               ,ooo:        
+              ,oooo:        
+            .:oooooo.       
+            ooooooooo       
+            oooo.,ooo       
+            ,oo,  ooo       
+     .::          ooo       
+    .oo:         ,ooo       
+    :oo,         oooo       
+    :oo.        oooo,       
+    :ooo....,oooooo:        
+    .ooooooooooooo,.        
+     .ooooooooo::           
+      ..ooo....             
+                            
+                            
+                            
+                            
+ Expected: 3 Guessed: 3
+shape: ( 10 )
+elemkind: float
+max: 0.99381  min: 0.00000  avg: 0.10000
+[0.00027, 0.00000, 0.00573, 0.99381, 0.00000, 0.00001, 0.00000, 0.00000, 0.00018, 0.00000, ]
+
+-------------
+MNIST Input                            
+                            
+                            
+                            
+                            
+                            
+                            
+         .oo,    ,,         
+       .,ooooooo:ooo,       
+       ooooo::oo:oooo       
+      .oooo,      ooo       
+      .oooo      .oo:       
+      .ooo.      ,oo.       
+       ,o:      .ooo        
+                ooo,        
+               .ooo.        
+              .ooo,         
+              ,oo:          
+              ooo           
+             :oo,           
+            .ooo            
+            :oo,            
+           .oo:             
+           :oo,             
+          ,ooo              
+         .ooo               
+         .oo                
+                            
+ Expected: 7 Guessed: 7
+shape: ( 10 )
+elemkind: float
+max: 0.99744  min: 0.00000  avg: 0.10000
+[0.00002, 0.00000, 0.00001, 0.00000, 0.00002, 0.00000, 0.00000, 0.99744, 0.00007, 0.00243, ]
+
+-------------
+MNIST Input                            
+                            
+                            
+                            
+                            
+         .ooooo::oo.        
+         :oooooooooo:       
+        :oooooooooooo       
+        :oooooooooo:.       
+         :ooo               
+         .ooo               
+         ooo.   ....        
+         ooo.  :oooo:       
+        :ooo,,ooooooo:      
+        :ooooooooooooo.     
+        :ooooooo:  ooo.     
+        :oooo:..   ooo.     
+        ,ooo.     :oo:      
+         ...     .ooo:      
+                 ,ooo,      
+               .:ooo,       
+           ....oooo:        
+         .:oooooooo.        
+         .ooooooo,          
+         .ooo:...           
+                            
+                            
+                            
+ Expected: 5 Guessed: 8
+shape: ( 10 )
+elemkind: float
+max: 0.40012  min: 0.00000  avg: 0.10000
+[0.03327, 0.00000, 0.00453, 0.05699, 0.00008, 0.11193, 0.00053, 0.00194, 0.40012, 0.39061, ]
+
+-------------
+MNIST Input                            
+                            
+                            
+                            
+                            
+            .oooooo:        
+           .ooooooooo,      
+           ooo,,,,oooo,     
+           ,o,     :oo,     
+           ,o:     ,oo,     
+            oo,  .,ooo.     
+            ooo,ooooo,      
+            :oooooo:.       
+            oooo:,          
+          .ooooo,           
+         ,ooo:oo,           
+         ooo. oo,           
+        ,oo.  :o,           
+        :o,   oo,           
+       ,oo,   oo,           
+       ,oo,  ,oo,           
+       ,oo,  ,oo,           
+        :oo:,ooo            
+        .oooooo.            
+          ,,o:.             
+                            
+                            
+                            
+ Expected: 8 Guessed: 8
+shape: ( 10 )
+elemkind: float
+max: 0.98809  min: 0.00001  avg: 0.10000
+[0.00044, 0.00020, 0.00696, 0.00140, 0.00001, 0.00003, 0.00002, 0.00024, 0.98809, 0.00260, ]
+
+-------------
+MNIST Input                            
+                            
+                            
+                            
+                            
+              ,ooooo.       
+        oo: ,oo,..,oo.      
+       oooooo:     .oo      
+      ,o: :o:        o:     
+      :o  .:o        ,o     
+     .o:             .o.    
+     .o.              ,:    
+     .o               .o    
+     .o               .o.   
+     .o                o.   
+     .o               .o.   
+     .o.              .o.   
+     .o,              ,o    
+      ::              ::    
+      ,o.            .o,    
+       oo            :o     
+       .o:          :o,     
+        .oo.       oo:      
+         .oooo:,,,oo:       
+           .:ooooo,         
+                            
+                            
+                            
+ Expected: 0 Guessed: 0
+shape: ( 10 )
+elemkind: float
+max: 0.98587  min: 0.00000  avg: 0.10000
+[0.98587, 0.00000, 0.00512, 0.00086, 0.00000, 0.00675, 0.00001, 0.00011, 0.00119, 0.00008, ]
+
+-------------
+MNIST Input                            
+                            
+                            
+                            
+                            
+                            
+             ,,ooo.         
+           .ooo,.oo   ,     
+          ,oo,    :         
+         .oo,     ,         
+         :o:     ,o:        
+         :o,     oo.        
+         :o,    ,o,         
+         :oo,  :oo.         
+          ,oooooo:          
+            ...:o:          
+              .oo.          
+              :oo           
+              oo,           
+             :oo            
+             oo:            
+            .oo.            
+            :o,             
+            oo.             
+           .oo.             
+            :o.             
+                            
+                            
+ Expected: 9 Guessed: 9
+shape: ( 10 )
+elemkind: float
+max: 0.94218  min: 0.00006  avg: 0.10000
+[0.00039, 0.00089, 0.00013, 0.00030, 0.03334, 0.00101, 0.00006, 0.00629, 0.01542, 0.94218, ]
+
+-------------
+Results: guessed/total:74/80
+I1206 08:38:03.769716  4346 HostManager.cpp:238] Destroying host manager...
+I1206 08:38:03.770268  4346 HostManager.cpp:238] Destroying host manager...
+I1206 08:38:03.774334  4346 mnist.cpp:46] Loading the mnist database.
+I1206 08:38:04.475724  4346 mnist.cpp:81] Loaded 50000 images.
+I1206 08:38:04.865203  4346 mnist.cpp:255] Loaded graph topology.
+E1206 08:38:04.865231  4346 mnist.cpp:258] Loader failed to load lenet_mnist model.
+I1206 08:38:04.865509  4346 HostManager.cpp:238] Destroying host manager...
+
